@@ -1,6 +1,6 @@
 # Note:
 
-This is a public version of the Multi-Modal Depression Detection project, shared to provide access to the relevant parts referenced in the thesis. Its purpose is to serve as supporting evidence of the work carried out.
+This is a public version of the Multi-Modal Depression Detection project, shared to provide access to the relevant parts referenced in the thesis. Its only purpose is to serve as supporting evidence of the work carried out.
 
 
 

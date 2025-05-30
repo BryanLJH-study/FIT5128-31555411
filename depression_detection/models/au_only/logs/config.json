@@ -1,0 +1,73 @@
+{
+    "DAIC_WOZ_READER": {
+        "directory": "../data/au_mfcc/DAIC-WOZ_Participant_Voiced/",
+        "speaking_only": false,
+        "keep_AU_cols": [
+            "AU01_r",
+            "AU02_r",
+            "AU04_r",
+            "AU05_r",
+            "AU06_r",
+            "AU09_r",
+            "AU10_r",
+            "AU12_r",
+            "AU14_r",
+            "AU15_r",
+            "AU17_r",
+            "AU20_r",
+            "AU25_r",
+            "AU26_r",
+            "AU04_c",
+            "AU12_c",
+            "AU15_c",
+            "AU23_c",
+            "AU28_c",
+            "AU45_c"
+        ],
+        "phq8_categories": {
+            "0": [
+                0,
+                9
+            ],
+            "1": [
+                10,
+                24
+            ]
+        },
+        "remove_unsuccessful": true
+    },
+    "SplitMode": "official",
+    "DataPipeline": {
+        "mfcc_dir": null,
+        "normalize_mfcc": true,
+        "mfcc_fixed_length": null,
+        "au_separate": false,
+        "au_fixed_length": null,
+        "segment_config": {
+            "au_window_size": 1800,
+            "au_step_size": 1800,
+            "mfcc_window_size": null,
+            "mfcc_step_size": null
+        },
+        "include_gender": false,
+        "batch_size": 64,
+        "weighted_random_sampling": true
+    },
+    "Model": {
+        "num_au_features": 20,
+        "au_fixed_length": 1800,
+        "hidden_size": 40
+    },
+    "Training": {
+        "num_epochs": 15,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "checkpoint_dir": "/ibm/gpfs/home/blea0003/Multi-Modal-Depression-Detection/depression_detection/models/au_only/checkpoints",
+        "log_dir": "/ibm/gpfs/home/blea0003/Multi-Modal-Depression-Detection/depression_detection/models/au_only/logs"
+    },
+    "Optimization": {
+        "loss_function": "<class 'torch.nn.modules.loss.BCEWithLogitsLoss'>",
+        "optimizer": "<class 'torch.optim.adamw.AdamW'>",
+        "scheduler": "<class 'torch.optim.lr_scheduler.CosineAnnealingLR'>"
+    }
+}

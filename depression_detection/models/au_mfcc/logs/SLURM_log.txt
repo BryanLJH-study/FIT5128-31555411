@@ -1,0 +1,666 @@
+Reading DAIC-WOZ Data
+Reading Participant ID: 367...Reading Participant ID: 485...Reading Participant ID: 448...Reading Participant ID: 451...Reading Participant ID: 414...Reading Participant ID: 362...Reading Participant ID: 325...Reading Participant ID: 320...Reading Participant ID: 489...Reading Participant ID: 492...Reading Participant ID: 455...Reading Participant ID: 418...Reading Participant ID: 366...Reading Participant ID: 329...Reading Participant ID: 450...Reading Participant ID: 413...Reading Participant ID: 361...Reading Participant ID: 459...Reading Participant ID: 336...Reading Participant ID: 491...Reading Participant ID: 454...Reading Participant ID: 417...Reading Participant ID: 331...Reading Participant ID: 377...Reading Participant ID: 458...Reading Participant ID: 424...Reading Participant ID: 372...Reading Participant ID: 335...Reading Participant ID: 490...Reading Participant ID: 330...Reading Participant ID: 465...Reading Participant ID: 428...Reading Participant ID: 376...Reading Participant ID: 339...Reading Participant ID: 423...Reading Participant ID: 371...Reading Participant ID: 334...Reading Participant ID: 300...Reading Participant ID: 469...Reading Participant ID: 309...Reading Participant ID: 464...Reading Participant ID: 427...Reading Participant ID: 375...Reading Participant ID: 341...Reading Participant ID: 304...Reading Participant ID: 422...Reading Participant ID: 468...Reading Participant ID: 382...Reading Participant ID: 345...Reading Participant ID: 308...Reading Participant ID: 463...Reading Participant ID: 340...Reading Participant ID: 303...Reading Participant ID: 438...Reading Participant ID: 386...Reading Participant ID: 349...Reading Participant ID: 470...Reading Participant ID: 433...Reading Participant ID: 381...Reading Participant ID: 344...Reading Participant ID: 307...Reading Participant ID: 310...Reading Participant ID: 479...Reading Participant ID: 474...Reading Participant ID: 437...Reading Participant ID: 385...Reading Participant ID: 348...Reading Participant ID: 351...Reading Participant ID: 314...Reading Participant ID: 432...Reading Participant ID: 478...Reading Participant ID: 389...Reading Participant ID: 392...Reading Participant ID: 355...Reading Participant ID: 318...Reading Participant ID: 473...Reading Participant ID: 436...Reading Participant ID: 402...Reading Participant ID: 350...Reading Participant ID: 313...Reading Participant ID: 396...Reading Participant ID: 359...Reading Participant ID: 477...Reading Participant ID: 480...Reading Participant ID: 443...Reading Participant ID: 406...Reading Participant ID: 391...Reading Participant ID: 354...Reading Participant ID: 317...Reading Participant ID: 401...Reading Participant ID: 484...Reading Participant ID: 447...Reading Participant ID: 395...Reading Participant ID: 358...Reading Participant ID: 324...Reading Participant ID: 442...Reading Participant ID: 405...Reading Participant ID: 488...Reading Participant ID: 399...Reading Participant ID: 365...Reading Participant ID: 328...Reading Participant ID: 483...Reading Participant ID: 446...Reading Participant ID: 409...Reading Participant ID: 412...Reading Participant ID: 360...Reading Participant ID: 323...Reading Participant ID: 369...Reading Participant ID: 487...Reading Participant ID: 453...Reading Participant ID: 416...Reading Participant ID: 364...Reading Participant ID: 327...Reading Participant ID: 411...Reading Participant ID: 457...Reading Participant ID: 368...Reading Participant ID: 452...Reading Participant ID: 415...Reading Participant ID: 338...Reading Participant ID: 456...Reading Participant ID: 419...Reading Participant ID: 370...Reading Participant ID: 333...Reading Participant ID: 379...Reading Participant ID: 426...Reading Participant ID: 374...Reading Participant ID: 337...Reading Participant ID: 421...Reading Participant ID: 332...Reading Participant ID: 467...Reading Participant ID: 378...Reading Participant ID: 462...Reading Participant ID: 425...Reading Participant ID: 373...Reading Participant ID: 302...Reading Participant ID: 420...Reading Participant ID: 466...Reading Participant ID: 429...Reading Participant ID: 380...Reading Participant ID: 343...Reading Participant ID: 306...Reading Participant ID: 461...Reading Participant ID: 301...Reading Participant ID: 384...Reading Participant ID: 347...Reading Participant ID: 431...Reading Participant ID: 305...Reading Participant ID: 388...Reading Participant ID: 472...Reading Participant ID: 435...Reading Participant ID: 383...Reading Participant ID: 346...Reading Participant ID: 312...Reading Participant ID: 430...Reading Participant ID: 476...Reading Participant ID: 439...Reading Participant ID: 387...Reading Participant ID: 390...Reading Participant ID: 353...Reading Participant ID: 316...Reading Participant ID: 471...Reading Participant ID: 434...Reading Participant ID: 400...Reading Participant ID: 311...Reading Participant ID: 357...Reading Participant ID: 475...Reading Participant ID: 441...Reading Participant ID: 404...Reading Participant ID: 352...Reading Participant ID: 315...Reading Participant ID: 482...Reading Participant ID: 445...Reading Participant ID: 408...Reading Participant ID: 393...Reading Participant ID: 356...Reading Participant ID: 319...Reading Participant ID: 322...Reading Participant ID: 440...Reading Participant ID: 403...Reading Participant ID: 486...Reading Participant ID: 449...Reading Participant ID: 397...Reading Participant ID: 363...Reading Participant ID: 326...Reading Participant ID: 481...Reading Participant ID: 444...Reading Participant ID: 407...Reading Participant ID: 410...Reading Participant ID: 321...Unsuccessful frames in data to be removed: 3.835461318536759%
+
+Unique videos: 189
+Total processed frames: 2362555
+Avg frames per video: 12500.291005291005
+Memory used: 0.5192709900438786 GB
+
+Preparing Dataloader
+Preparing Data
+
+Configuration saved to /ibm/gpfs/home/blea0003/Multi-Modal-Depression-Detection/depression_detection/models/v2/au_mfcc/logs/config.json
+
+Epoch 1/100
+------------------------------
+Train Loss: 1.2510, Accuracy: 0.5242
+Val Loss: 1.3151, Accuracy: 0.3958
+learning rate: [0.001]
+Best loss model updated.
+Best accuracy model updated.
+
+Epoch 2/100
+------------------------------
+Train Loss: 1.1221, Accuracy: 0.4992
+Val Loss: 1.2636, Accuracy: 0.3958
+learning rate: [0.0009997532801828658]
+Best loss model updated.
+
+Epoch 3/100
+------------------------------
+Train Loss: 1.1088, Accuracy: 0.5320
+Val Loss: 1.1179, Accuracy: 0.3375
+learning rate: [0.0009990133642141358]
+Best loss model updated.
+
+Epoch 4/100
+------------------------------
+Train Loss: 0.9416, Accuracy: 0.6100
+Val Loss: 1.2762, Accuracy: 0.4333
+learning rate: [0.00099778098230154]
+Best accuracy model updated.
+
+Epoch 5/100
+------------------------------
+Train Loss: 0.8754, Accuracy: 0.6490
+Val Loss: 1.2672, Accuracy: 0.4000
+learning rate: [0.000996057350657239]
+
+Epoch 6/100
+------------------------------
+Train Loss: 0.8224, Accuracy: 0.6942
+Val Loss: 1.3859, Accuracy: 0.3958
+learning rate: [0.0009938441702975688]
+
+Epoch 7/100
+------------------------------
+Train Loss: 0.6833, Accuracy: 0.7878
+Val Loss: 2.5512, Accuracy: 0.5667
+learning rate: [0.0009911436253643444]
+Best accuracy model updated.
+
+Epoch 8/100
+------------------------------
+Train Loss: 0.9917, Accuracy: 0.6365
+Val Loss: 1.9272, Accuracy: 0.3625
+learning rate: [0.0009879583809693736]
+
+Epoch 9/100
+------------------------------
+Train Loss: 0.8414, Accuracy: 0.6942
+Val Loss: 1.6667, Accuracy: 0.4125
+learning rate: [0.0009842915805643154]
+
+Epoch 10/100
+------------------------------
+Train Loss: 0.6552, Accuracy: 0.7598
+Val Loss: 1.9447, Accuracy: 0.3208
+learning rate: [0.0009801468428384714]
+
+Epoch 11/100
+------------------------------
+Train Loss: 0.4836, Accuracy: 0.8736
+Val Loss: 2.5272, Accuracy: 0.3375
+learning rate: [0.0009755282581475767]
+
+Epoch 12/100
+------------------------------
+Train Loss: 0.4541, Accuracy: 0.8924
+Val Loss: 2.0490, Accuracy: 0.4000
+learning rate: [0.0009704403844771127]
+
+Epoch 13/100
+------------------------------
+Train Loss: 0.3269, Accuracy: 0.9158
+Val Loss: 3.4957, Accuracy: 0.4125
+learning rate: [0.0009648882429441257]
+
+Epoch 14/100
+------------------------------
+Train Loss: 0.1963, Accuracy: 0.9438
+Val Loss: 5.2524, Accuracy: 0.4167
+learning rate: [0.0009588773128419905]
+
+Epoch 15/100
+------------------------------
+Train Loss: 0.1318, Accuracy: 0.9594
+Val Loss: 5.7360, Accuracy: 0.4583
+learning rate: [0.0009524135262330098]
+
+Epoch 16/100
+------------------------------
+Train Loss: 0.0950, Accuracy: 0.9797
+Val Loss: 8.7166, Accuracy: 0.4542
+learning rate: [0.0009455032620941839]
+
+Epoch 17/100
+------------------------------
+Train Loss: 0.0513, Accuracy: 0.9875
+Val Loss: 10.8275, Accuracy: 0.4375
+learning rate: [0.0009381533400219318]
+
+Epoch 18/100
+------------------------------
+Train Loss: 0.0286, Accuracy: 0.9922
+Val Loss: 12.4121, Accuracy: 0.4583
+learning rate: [0.0009303710135019719]
+
+Epoch 19/100
+------------------------------
+Train Loss: 0.0124, Accuracy: 0.9984
+Val Loss: 10.8089, Accuracy: 0.4667
+learning rate: [0.0009221639627510076]
+
+Epoch 20/100
+------------------------------
+Train Loss: 0.0158, Accuracy: 0.9969
+Val Loss: 14.2943, Accuracy: 0.5042
+learning rate: [0.000913540287137281]
+
+Epoch 21/100
+------------------------------
+Train Loss: 0.0057, Accuracy: 1.0000
+Val Loss: 12.2199, Accuracy: 0.4625
+learning rate: [0.0009045084971874739]
+
+Epoch 22/100
+------------------------------
+Train Loss: 0.0255, Accuracy: 0.9938
+Val Loss: 11.7926, Accuracy: 0.4708
+learning rate: [0.0008950775061878452]
+
+Epoch 23/100
+------------------------------
+Train Loss: 0.0578, Accuracy: 0.9875
+Val Loss: 9.8440, Accuracy: 0.4750
+learning rate: [0.0008852566213878947]
+
+Epoch 24/100
+------------------------------
+Train Loss: 0.0302, Accuracy: 0.9922
+Val Loss: 13.1610, Accuracy: 0.4750
+learning rate: [0.0008750555348152298]
+
+Epoch 25/100
+------------------------------
+Train Loss: 0.0093, Accuracy: 1.0000
+Val Loss: 11.7078, Accuracy: 0.4750
+learning rate: [0.0008644843137107057]
+
+Epoch 26/100
+------------------------------
+Train Loss: 0.0111, Accuracy: 0.9953
+Val Loss: 17.1877, Accuracy: 0.4875
+learning rate: [0.0008535533905932737]
+
+Epoch 27/100
+------------------------------
+Train Loss: 0.0037, Accuracy: 1.0000
+Val Loss: 16.8752, Accuracy: 0.4792
+learning rate: [0.0008422735529643444]
+
+Epoch 28/100
+------------------------------
+Train Loss: 0.0014, Accuracy: 1.0000
+Val Loss: 16.1195, Accuracy: 0.4750
+learning rate: [0.0008306559326618259]
+
+Epoch 29/100
+------------------------------
+Train Loss: 0.0013, Accuracy: 1.0000
+Val Loss: 17.4056, Accuracy: 0.4792
+learning rate: [0.0008187119948743449]
+
+Epoch 30/100
+------------------------------
+Train Loss: 0.0003, Accuracy: 1.0000
+Val Loss: 18.3526, Accuracy: 0.4875
+learning rate: [0.0008064535268264883]
+
+Epoch 31/100
+------------------------------
+Train Loss: 0.0017, Accuracy: 1.0000
+Val Loss: 20.8075, Accuracy: 0.4875
+learning rate: [0.0007938926261462367]
+
+Epoch 32/100
+------------------------------
+Train Loss: 0.0020, Accuracy: 1.0000
+Val Loss: 16.7785, Accuracy: 0.4833
+learning rate: [0.0007810416889260654]
+
+Epoch 33/100
+------------------------------
+Train Loss: 0.0094, Accuracy: 0.9984
+Val Loss: 17.3932, Accuracy: 0.4708
+learning rate: [0.0007679133974894983]
+
+Epoch 34/100
+------------------------------
+Train Loss: 0.0016, Accuracy: 1.0000
+Val Loss: 17.6222, Accuracy: 0.4708
+learning rate: [0.0007545207078751857]
+
+Epoch 35/100
+------------------------------
+Train Loss: 0.0010, Accuracy: 1.0000
+Val Loss: 17.5222, Accuracy: 0.4750
+learning rate: [0.0007408768370508577]
+
+Epoch 36/100
+------------------------------
+Train Loss: 0.0006, Accuracy: 1.0000
+Val Loss: 18.0046, Accuracy: 0.4792
+learning rate: [0.0007269952498697734]
+
+Epoch 37/100
+------------------------------
+Train Loss: 0.0004, Accuracy: 1.0000
+Val Loss: 18.6054, Accuracy: 0.4833
+learning rate: [0.0007128896457825364]
+
+Epoch 38/100
+------------------------------
+Train Loss: 0.0005, Accuracy: 1.0000
+Val Loss: 18.9135, Accuracy: 0.4875
+learning rate: [0.0006985739453173903]
+
+Epoch 39/100
+------------------------------
+Train Loss: 0.0004, Accuracy: 1.0000
+Val Loss: 19.2994, Accuracy: 0.4875
+learning rate: [0.0006840622763423391]
+
+Epoch 40/100
+------------------------------
+Train Loss: 0.0005, Accuracy: 1.0000
+Val Loss: 20.2026, Accuracy: 0.4792
+learning rate: [0.0006693689601226458]
+
+Epoch 41/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 20.6277, Accuracy: 0.4792
+learning rate: [0.0006545084971874737]
+
+Epoch 42/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 20.7987, Accuracy: 0.4792
+learning rate: [0.0006394955530196147]
+
+Epoch 43/100
+------------------------------
+Train Loss: 0.0003, Accuracy: 1.0000
+Val Loss: 20.6465, Accuracy: 0.4750
+learning rate: [0.0006243449435824273]
+
+Epoch 44/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 20.6174, Accuracy: 0.4792
+learning rate: [0.0006090716206982714]
+
+Epoch 45/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 20.5564, Accuracy: 0.4833
+learning rate: [0.0005936906572928625]
+
+Epoch 46/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 20.5555, Accuracy: 0.4833
+learning rate: [0.0005782172325201156]
+
+Epoch 47/100
+------------------------------
+Train Loss: 0.0004, Accuracy: 1.0000
+Val Loss: 20.9460, Accuracy: 0.4833
+learning rate: [0.0005626666167821523]
+
+Epoch 48/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 21.2614, Accuracy: 0.4875
+learning rate: [0.0005470541566592572]
+
+Epoch 49/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 21.2587, Accuracy: 0.4833
+learning rate: [0.0005313952597646569]
+
+Epoch 50/100
+------------------------------
+Train Loss: 0.0004, Accuracy: 1.0000
+Val Loss: 20.2812, Accuracy: 0.4833
+learning rate: [0.0005157053795390643]
+
+Epoch 51/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 20.2651, Accuracy: 0.4833
+learning rate: [0.0005000000000000002]
+
+Epoch 52/100
+------------------------------
+Train Loss: 0.0004, Accuracy: 1.0000
+Val Loss: 21.1723, Accuracy: 0.4750
+learning rate: [0.00048429462046093607]
+
+Epoch 53/100
+------------------------------
+Train Loss: 0.0007, Accuracy: 1.0000
+Val Loss: 22.7598, Accuracy: 0.4958
+learning rate: [0.0004686047402353435]
+
+Epoch 54/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.3546, Accuracy: 0.4958
+learning rate: [0.000452945843340743]
+
+Epoch 55/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5055, Accuracy: 0.4958
+learning rate: [0.00043733338321784806]
+
+Epoch 56/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.4908, Accuracy: 0.4958
+learning rate: [0.0004217827674798847]
+
+Epoch 57/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.3795, Accuracy: 0.4958
+learning rate: [0.00040630934270713783]
+
+Epoch 58/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 23.1101, Accuracy: 0.4958
+learning rate: [0.000390928379301729]
+
+Epoch 59/100
+------------------------------
+Train Loss: 0.0004, Accuracy: 1.0000
+Val Loss: 22.8789, Accuracy: 0.4875
+learning rate: [0.0003756550564175727]
+
+Epoch 60/100
+------------------------------
+Train Loss: 0.0003, Accuracy: 1.0000
+Val Loss: 22.7675, Accuracy: 0.4833
+learning rate: [0.00036050444698038553]
+
+Epoch 61/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 22.8504, Accuracy: 0.4833
+learning rate: [0.00034549150281252655]
+
+Epoch 62/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 22.8932, Accuracy: 0.4875
+learning rate: [0.0003306310398773544]
+
+Epoch 63/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 22.9285, Accuracy: 0.4875
+learning rate: [0.00031593772365766127]
+
+Epoch 64/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 22.9244, Accuracy: 0.4875
+learning rate: [0.0003014260546826097]
+
+Epoch 65/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.0291, Accuracy: 0.4875
+learning rate: [0.0002871103542174637]
+
+Epoch 66/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.0685, Accuracy: 0.4875
+learning rate: [0.0002730047501302267]
+
+Epoch 67/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.0911, Accuracy: 0.4875
+learning rate: [0.00025912316294914234]
+
+Epoch 68/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.1661, Accuracy: 0.4875
+learning rate: [0.0002454792921248144]
+
+Epoch 69/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.2429, Accuracy: 0.4875
+learning rate: [0.00023208660251050164]
+
+Epoch 70/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.2954, Accuracy: 0.4875
+learning rate: [0.00021895831107393473]
+
+Epoch 71/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.3246, Accuracy: 0.4875
+learning rate: [0.00020610737385376356]
+
+Epoch 72/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 23.2701, Accuracy: 0.4875
+learning rate: [0.00019354647317351177]
+
+Epoch 73/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.2643, Accuracy: 0.4875
+learning rate: [0.0001812880051256552]
+
+Epoch 74/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 23.2867, Accuracy: 0.4875
+learning rate: [0.00016934406733817422]
+
+Epoch 75/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.2853, Accuracy: 0.4875
+learning rate: [0.0001577264470356557]
+
+Epoch 76/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.2741, Accuracy: 0.4875
+learning rate: [0.00014644660940672634]
+
+Epoch 77/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.2843, Accuracy: 0.4875
+learning rate: [0.0001355156862892944]
+
+Epoch 78/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.3051, Accuracy: 0.4875
+learning rate: [0.00012494446518477025]
+
+Epoch 79/100
+------------------------------
+Train Loss: 0.0003, Accuracy: 1.0000
+Val Loss: 23.4333, Accuracy: 0.4875
+learning rate: [0.00011474337861210548]
+
+Epoch 80/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.5468, Accuracy: 0.4875
+learning rate: [0.00010492249381215483]
+
+Epoch 81/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.5821, Accuracy: 0.4875
+learning rate: [9.549150281252637e-05]
+
+Epoch 82/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.6016, Accuracy: 0.4875
+learning rate: [8.645971286271918e-05]
+
+Epoch 83/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5533, Accuracy: 0.4875
+learning rate: [7.78360372489926e-05]
+
+Epoch 84/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5467, Accuracy: 0.4875
+learning rate: [6.962898649802815e-05]
+
+Epoch 85/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5467, Accuracy: 0.4875
+learning rate: [6.184665997806824e-05]
+
+Epoch 86/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.5429, Accuracy: 0.4875
+learning rate: [5.449673790581613e-05]
+
+Epoch 87/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 23.5291, Accuracy: 0.4875
+learning rate: [4.758647376699034e-05]
+
+Epoch 88/100
+------------------------------
+Train Loss: 0.0003, Accuracy: 1.0000
+Val Loss: 23.5363, Accuracy: 0.4875
+learning rate: [4.112268715800956e-05]
+
+Epoch 89/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5472, Accuracy: 0.4875
+learning rate: [3.511175705587434e-05]
+
+Epoch 90/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5597, Accuracy: 0.4875
+learning rate: [2.9559615522887284e-05]
+
+Epoch 91/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5660, Accuracy: 0.4875
+learning rate: [2.447174185242324e-05]
+
+Epoch 92/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5667, Accuracy: 0.4875
+learning rate: [1.9853157161528526e-05]
+
+Epoch 93/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5670, Accuracy: 0.4875
+learning rate: [1.570841943568452e-05]
+
+Epoch 94/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5587, Accuracy: 0.4875
+learning rate: [1.204161903062634e-05]
+
+Epoch 95/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.5568, Accuracy: 0.4875
+learning rate: [8.85637463565564e-06]
+
+Epoch 96/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5557, Accuracy: 0.4875
+learning rate: [6.155829702431171e-06]
+
+Epoch 97/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5547, Accuracy: 0.4875
+learning rate: [3.942649342761118e-06]
+
+Epoch 98/100
+------------------------------
+Train Loss: 0.0001, Accuracy: 1.0000
+Val Loss: 23.5544, Accuracy: 0.4875
+learning rate: [2.2190176984600023e-06]
+
+Epoch 99/100
+------------------------------
+Train Loss: 0.0002, Accuracy: 1.0000
+Val Loss: 23.5543, Accuracy: 0.4875
+learning rate: [9.866357858642206e-07]
+
+Epoch 100/100
+------------------------------
+Train Loss: 0.0000, Accuracy: 1.0000
+Val Loss: 23.5543, Accuracy: 0.4875
+learning rate: [2.467198171342e-07]
+Training complete.
+
+TESTING FINAL MODEL
+
+Confusion Matrix [[164  76]
+ [ 68  25]]
+
+Classification Report               precision    recall  f1-score   support
+
+           0       0.71      0.68      0.69       240
+           1       0.25      0.27      0.26        93
+
+    accuracy                           0.57       333
+   macro avg       0.48      0.48      0.48       333
+weighted avg       0.58      0.57      0.57       333
+
+
+TESTING BEST LOSS MODEL
+Loaded model states from /ibm/gpfs/home/blea0003/Multi-Modal-Depression-Detection/depression_detection/models/v2/au_mfcc/checkpoints/best_loss_model.pth
+
+Confusion Matrix [[ 49 191]
+ [ 30  63]]
+
+Classification Report               precision    recall  f1-score   support
+
+           0       0.62      0.20      0.31       240
+           1       0.25      0.68      0.36        93
+
+    accuracy                           0.34       333
+   macro avg       0.43      0.44      0.34       333
+weighted avg       0.52      0.34      0.32       333
+
+
+TESTING BEST ACCURACY MODEL
+Loaded model states from /ibm/gpfs/home/blea0003/Multi-Modal-Depression-Detection/depression_detection/models/v2/au_mfcc/checkpoints/best_acc_model.pth
+
+Confusion Matrix [[228  12]
+ [ 77  16]]
+
+Classification Report               precision    recall  f1-score   support
+
+           0       0.75      0.95      0.84       240
+           1       0.57      0.17      0.26        93
+
+    accuracy                           0.73       333
+   macro avg       0.66      0.56      0.55       333
+weighted avg       0.70      0.73      0.68       333
+

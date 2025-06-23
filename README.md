@@ -8,4 +8,4 @@ This is a public version of the Multi-Modal Depression Detection project, shared
 
 The documentation for this repository is currently incomplete. I'll only be able to work on it after 18/6/25.
 
-Temporary Google Drive link to download model datasets: [link](https://drive.google.com/drive/folders/13dJn7-v207ej1Zk1Srd6IVekBZXS-YWF?usp=sharing)
+Temporary Google Drive link to download model datasets: [link](https://drive.google.com/drive/folders/1SqAoHDPgw9KiMlIZ87HmtuR4mmcfdObq?usp=sharing)

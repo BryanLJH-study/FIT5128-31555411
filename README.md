@@ -1,5 +1,6 @@
 # Multi-Modal Depression Detection (Master Thesis S2 2024)
 
+<<<<<<< HEAD
 This repository contains the code and resources for the final version of the **Multi-Modal Depression Detection** project. This work was conducted as part of a Master's thesis in 2024, exploring interpretable machine learning models for automatic depression detection.
 [Link to the thesis document](https://drive.google.com/file/d/1ey-tDiRTFwYGDblzGMOqV-zRHtNvK28D/view?usp=sharing).
 
@@ -55,6 +56,9 @@ The **depression\_detection** directory includes code for model training and eva
   * DAIC-WOZ test split.
   * MBADD dataset.
   * Statistical significance tests for performance metrics.
+=======
+This is a public version of the Multi-Modal Depression Detection project, shared to provide access to the relevant parts referenced in the thesis. Its only purpose is to serve as supporting evidence of the work carried out.
+>>>>>>> 37731c20c1caf40c2484f64316f5afa393887566
 
 
 
@@ -65,3 +69,7 @@ For questions or inquiries, please contact:
 \[bryanlean.jh@gmail.com]
 
 
+<<<<<<< HEAD
+=======
+Temporary Google Drive link to download model datasets: [link](https://drive.google.com/drive/folders/1SqAoHDPgw9KiMlIZ87HmtuR4mmcfdObq?usp=sharing)
+>>>>>>> 37731c20c1caf40c2484f64316f5afa393887566

@@ -1,4 +1,6 @@
 import os
+import argparse
+import shutil
 import librosa
 import numpy as np
 import pandas as pd
@@ -65,7 +67,7 @@ def extract_mfcc_from_audio_segment(audio_segment:np.ndarray, sr:int, n_mfcc, wi
 
 
 
-def process_files(input_dir, output_dir, n_mfcc=13, window_length_s=0.06, hop_length_s=0.01, window_type="hamming", n_mels=24, remove_non_voiced=True):
+def process_files(input_dir, output_dir, n_mfcc=60, window_length_s=0.06, hop_length_s=0.06, window_type="hamming", n_mels=60, remove_non_voiced=True):
     """
     Processes all video files in the provided DAIC-WOZ directory,
     extracting MFCCs and saving them in the output directory, maintaining the same directory structure.
@@ -170,11 +172,57 @@ def process_files(input_dir, output_dir, n_mfcc=13, window_length_s=0.06, hop_le
     print("All participants have been processed.", flush=True)
 
 
-if __name__ == "__main__":
-    # source_dir = "/home/blea0003/VideoAnnotation/Type 01"
-    # output_dir = "/home/blea0003/MFCCAnnotations/Type 01"
-    # process_videos(source_dir, output_dir, n_mfcc=13)
 
-    source_dir = "data/DAIC-WOZ/"
-    output_dir = "Temp/au_mfcc/DAIC-WOZ_MFCC/24_60_60_24"
-    process_files(source_dir, output_dir, n_mfcc=24, window_length_s=0.06, hop_length_s=0.06, window_type="hamming", n_mels=24, remove_non_voiced=True)
+
+def copy_files(input_dir, output_dir):
+    """
+    Copies specific files to the output directory.
+    
+    Args:
+        - input_dir (str): Path to the directory containing the files.
+        - output_dir (str): Path to the destination directory.
+    """
+    files_to_copy = [
+        "dev_split_Depression_AVEC2017.csv",
+        "full_test_split.csv",
+        "train_split_Depression_AVEC2017.csv"
+    ]
+
+    for file_name in files_to_copy:
+        src_path = os.path.join(input_dir, file_name)
+        dest_path = os.path.join(output_dir, file_name)
+        try:
+            shutil.copy2(src_path, dest_path)
+            print(f"Copied {file_name} to {output_dir}", flush=True)
+        except Exception as e:
+            print(f"Error copying {file_name}: {e}", flush=True)
+
+
+
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description="Process audio files to extract MFCC features.")
+    parser.add_argument("--input_dir", type=str, required=True, help="Path to the input directory containing audio files.")
+    parser.add_argument("--output_dir", type=str, required=True, help="Path to the output directory to save MFCC files.")
+    parser.add_argument("--n_mfcc", type=int, default=60, help="Number of MFCC coefficients to extract.")
+    parser.add_argument("--window_length_s", type=float, default=0.06, help="Window length in seconds.")
+    parser.add_argument("--hop_length_s", type=float, default=0.06, help="Hop length in seconds.")
+    parser.add_argument("--window_type", type=str, default="hamming", help="Type of windowing to use.")
+    parser.add_argument("--n_mels", type=int, default=60, help="Number of Mel bands to use.")
+    parser.add_argument("--remove_non_voiced", action="store_true", help="Remove non-voiced sections from audio.")
+
+    args = parser.parse_args()
+
+    process_files(
+        input_dir=args.input_dir,
+        output_dir=args.output_dir,
+        n_mfcc=args.n_mfcc,
+        window_length_s=args.window_length_s,
+        hop_length_s=args.hop_length_s,
+        window_type=args.window_type,
+        n_mels=args.n_mels,
+        remove_non_voiced=args.remove_non_voiced
+    )
+
+    copy_files(input_dir=args.input_dir, output_dir=args.output_dir)

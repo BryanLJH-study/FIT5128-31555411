@@ -15,7 +15,7 @@ def main():
 
     config = {
         "DAIC_WOZ_READER": {
-            "directory": "../data/au_mfcc/DAIC-WOZ_Participant_Voiced/",
+            "directory": "../data/preprocessed_features/DAIC-WOZ/MFCC_Isolated",
             "speaking_only": False,
             "keep_AU_cols": [],
             "phq8_categories": {
@@ -26,7 +26,7 @@ def main():
         },
         "SplitMode": "official",
         "DataPipeline": {
-            "mfcc_dir": "../data/au_mfcc/DAIC-WOZ_MFCC/60_60_60_60",
+            "mfcc_dir": "../data/preprocessed_features/DAIC-WOZ/MFCC_Isolated",
             "normalize_mfcc": True,
             "mfcc_fixed_length": None,
             "au_separate": False,

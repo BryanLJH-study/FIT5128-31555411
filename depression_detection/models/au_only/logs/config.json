@@ -1,6 +1,6 @@
 {
     "DAIC_WOZ_READER": {
-        "directory": "../data/au_mfcc/DAIC-WOZ_Participant_Voiced/",
+        "directory": "../data/extracted_features/DAIC-WOZ/AU_Isolated",
         "speaking_only": false,
         "keep_AU_cols": [
             "AU01_r",

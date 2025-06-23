@@ -1,4 +1,6 @@
 import os
+import argparse
+import shutil
 import librosa
 import numpy as np
 import pandas as pd
@@ -144,7 +146,38 @@ def process_au_files(input_dir, output_dir):
     print("All participants have been processed.", flush=True)
 
 
+
+def copy_files(input_dir, output_dir):
+    """
+    Copies specific files to the output directory.
+    
+    Args:
+        - input_dir (str): Path to the directory containing the files.
+        - output_dir (str): Path to the destination directory.
+    """
+    files_to_copy = [
+        "dev_split_Depression_AVEC2017.csv",
+        "full_test_split.csv",
+        "train_split_Depression_AVEC2017.csv"
+    ]
+
+    for file_name in files_to_copy:
+        src_path = os.path.join(input_dir, file_name)
+        dest_path = os.path.join(output_dir, file_name)
+        try:
+            shutil.copy2(src_path, dest_path)
+            print(f"Copied {file_name} to {output_dir}", flush=True)
+        except Exception as e:
+            print(f"Error copying {file_name}: {e}", flush=True)
+
+
+
+
 if __name__ == "__main__":
-    source_dir = "data/DAIC-WOZ/"
-    output_dir = "Temp/au_mfcc/DAIC-WOZ_Participant_Voiced/"
-    process_au_files(source_dir, output_dir)
+    parser = argparse.ArgumentParser(description="Process AU files to extract participant-voiced segments.")
+    parser.add_argument("--input_dir", type=str, required=True, help="Path to the input directory containing files.")
+    parser.add_argument("--output_dir", type=str, required=True, help="Path to the output directory to save processed files.")
+    args = parser.parse_args()
+
+    process_au_files(input_dir=args.input_dir, output_dir=args.output_dir)
+    copy_files(input_dir=args.input_dir, output_dir=args.output_dir)

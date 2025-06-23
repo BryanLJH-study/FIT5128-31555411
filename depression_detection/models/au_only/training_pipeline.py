@@ -15,7 +15,7 @@ def main():
 
     config = {
         "DAIC_WOZ_READER": {
-            "directory": "../data/au_mfcc/DAIC-WOZ_Participant_Voiced/",
+            "directory": "../data/preprocessed_features/DAIC-WOZ/AU_Isolated",
             "speaking_only": False,
             "keep_AU_cols": ["AU01_r", "AU02_r", "AU04_r", "AU05_r", "AU06_r", "AU09_r", "AU10_r", "AU12_r", "AU14_r", "AU15_r", "AU17_r", "AU20_r", "AU25_r", "AU26_r",
                              "AU04_c", "AU12_c", "AU15_c", "AU23_c","AU28_c", "AU45_c"],

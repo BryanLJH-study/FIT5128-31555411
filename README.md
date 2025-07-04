@@ -1,7 +1,6 @@
 # Multi-Modal Depression Detection (Master Thesis S2 2024)
 
 This repository contains the code and resources for the final version of the **Multi-Modal Depression Detection** project. This work was conducted as part of a Master's thesis in 2024, exploring interpretable machine learning models for automatic depression detection.
-[Link to the thesis document](https://drive.google.com/file/d/1ey-tDiRTFwYGDblzGMOqV-zRHtNvK28D/view?usp=sharing).
 
 ---
 
